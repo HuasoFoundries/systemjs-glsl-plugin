@@ -8,7 +8,7 @@ SystemJS.config({
   },
   devConfig: {
     "map": {
-      "plugin-babel": "npm:systemjs-plugin-babel@0.0.12"
+      "plugin-babel": "npm:systemjs-plugin-babel@0.0.17"
     }
   },
   transpiler: "plugin-babel",

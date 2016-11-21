@@ -1,39 +1,43 @@
 {
-  "name": "systemjs-glsl-plugin",
-  "version": "0.0.1",
-  "description": "Loader plugin to let jspm/systemjs use glsl shaders as javascript modules",
-  "main": "glsl.js",
-  "scripts": {
-    "test": "npm test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HuasoFoundries/systemjs-glsl-plugin.git"
-  },
-  "keywords": [
-    "glsl",
-    "opengl",
-    "javascript",
-    "es6",
-    "systemjs",
-    "three.js",
-    "jspm"
-  ],
-  "author": "Felipe Figueroa",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/HuasoFoundries/systemjs-glsl-plugin/issues"
-  },
-  "homepage": "https://github.com/HuasoFoundries/systemjs-glsl-plugin#readme",
-  "devDependencies": {
-    "jspm": "^0.17.0-beta.24"
-  },
-  "jspm": {
     "name": "systemjs-glsl-plugin",
+    "version": "0.1.0",
+    "description": "Loader plugin to let jspm/systemjs use glsl shaders as javascript modules",
     "main": "glsl.js",
-    "format":"esm",
+    "scripts": {
+        "test": "npm test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HuasoFoundries/systemjs-glsl-plugin.git"
+    },
+    "keywords": [
+        "glsl",
+        "opengl",
+        "javascript",
+        "es6",
+        "systemjs",
+        "three.js",
+        "jspm"
+    ],
+    "author": "Felipe Figueroa",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/HuasoFoundries/systemjs-glsl-plugin/issues"
+    },
+    "homepage": "https://github.com/HuasoFoundries/systemjs-glsl-plugin#readme",
     "devDependencies": {
-      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.12"
+        "jspm": "^0.17.0-beta.24"
+    },
+    "jspm": {
+        "name": "systemjs-glsl-plugin",
+        "main": "glsl.js",
+        "dependencies": {},
+        "format": "esm",
+        "devDependencies": {
+            "plugin-babel": "npm:systemjs-plugin-babel@^0.0.17"
+        }
+    },
+    "dependencies": {
+        "jspm": "^0.17.0-beta.32"
     }
-  }
 }
